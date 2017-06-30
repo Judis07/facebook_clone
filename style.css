@@ -1,0 +1,234 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+}
+
+.container {
+	width: 1050px;
+	margin: auto;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+header {
+	background-color: #3B5998;
+	color: #fff;
+	padding-bottom: 10px;
+	height: 80px;
+}
+
+header .logo {
+	float: left;
+	font-size:  44px;
+	font-family: Helvetica;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+header .right-form {
+	width: 34%;
+	float: right;
+	margin-top: 15px;
+	text-align: left;
+}
+
+header .right-form input[type="text"],
+header .right-form input[type="password"]
+  {
+	width: 144px;
+	height: 17px;
+}
+
+header .right-form input[type="submit"] {
+		color: #fff;
+		background-color: #4267b2;
+		border: 1px solid transparent;
+}
+
+header .right-form  .deco {
+	font-size: 12px;
+	font-family: Helvetica;
+
+}
+header .right-form  .deco a {
+	color: #D5DAE9;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 10px;
+	
+}
+
+
+
+/* Main section */
+
+main {
+	    background: linear-gradient(white, #D3D8E8);
+	    margin-top: 0;
+}
+
+main .map-left {
+	float: left;
+	width: 50%;
+}
+
+main .map-left h3 {
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 450px;
+	word-spacing: -1px;
+}
+
+
+main .sign-up {
+	width: 45%;
+	float: right;
+}
+
+main .sign-up h1 {
+	font-size: 40px;
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: bold;
+
+}
+
+main .sign-up p {
+ 	color: #1d2129;
+ 	font-size: 19px;
+ 	margin-top: 5px;
+ }
+
+ .sign-up form input[type="email"],
+ .sign-up form input[type="password"] {
+ 	width: 86%;
+ 	height: 17px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+	padding: 8px 10px;
+	font-size: 18px;
+ }
+
+   .sign-up form input[type="text"]{
+  	width: 40%;
+  	height: 17px;
+ 	border-radius: 5px;
+ 	padding: 8px 10px;
+ 	font-size:  18px;
+ 	border: 1px solid #bdc7d8;
+  }
+
+  .date-sel {
+  	 font-size: 14px;
+  	 padding: 3px 2px;
+  	 margin-top: 10px;
+  }
+.date-ques {
+	font-size: 11px;
+	text-decoration: none;
+	color: #365899;
+	max-width: 150px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.form-text {
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+
+.sign-up .pol p{
+	    font-size: 12px;
+    line-height: 1.34;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+
+.sign-up .button {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	min-width: 194px;
+	padding: 7px 20px;
+	text-align: center;
+	color: #fff;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+
+.sign-up .cel-page {
+	border-top: 1px solid #dddfe2;
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.lin-style {
+	text-decoration: none;
+	color: #365899;
+}
+
+.lin-style:hover {
+	text-decoration: underline;
+}
+
+/* -------------- */
+
+footer {
+	clear: both;
+	color: #737373;
+}
+
+footer hr {
+	margin-top: 29px;
+	border-top: 3px solid transparent;
+}
+
+.foot-desc tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+	margin-top: 15px;
+}
+
+.foot-desc tbody tr {
+	border-collapse:  collapse;
+	line-height: 20px;
+	color: #365899;
+	font-size: 13px;
+	
+
+}
+
+tbody tr td {
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.fb-copy {
+	font-size: 13px;
+} 
+
+
+
